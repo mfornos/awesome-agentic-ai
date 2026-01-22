@@ -2,15 +2,9 @@
 
 > A curated, opinionated list of principles, standards, and technologies for building agentic AI systems.
 
-**Agentic AI** refers to systems built around goal-directed agents rather than single-shot generation. These systems typically involve agents that can:
+**Agentic AI** refers to systems built around goal-directed agents rather than single-shot generation. These agents plan over time, use external tools and APIs, maintain internal state and memory, interact with humans or other agents, and carry out multi-step processes with observable outcomes.
 
-- Form and revise plans over time
-- Invoke external actions (tools, APIs)
-- Maintain and reason over internal state and memory
-- Interact with other agents or humans
-- Execute multi-step processes with observable outcomes
-
-This list focuses on agent-centric abstractions and infrastructure, spanning everything from low-level model formats to high-level control and observability primitives.
+This list focuses on the abstractions and infrastructure that make such systems possible, from low-level model formats to high-level control and observability primitives.
 
 ## Contents
 
