@@ -6,25 +6,14 @@
 
 - [Introduction](#introduction)
 - [Principles](#principles)
-- [Papers](#papers)
 - [Platforms & Frameworks](#platforms--frameworks)
-   - [Self-hosted Agent Frameworks](#self-hosted-agent-frameworks)
-   - [Cloud-native Agent Platforms & Managed Stacks](#cloud-native-agent-platforms--managed-stacks)
 - [AI Infrastructure & Compute](#ai-infrastructure--compute)
 - [Standards & Specifications](#standards--specifications)
-   - [Open Economic & Micropayment Standards](#open-economic--micropayment-standards)
 - [Large Language Models](#large-language-models)
-   - [Inference & Serving](#inference--serving)
-   - [Model Formats](#model-formats)
-   - [Fine-tuning](#fine-tuning)
-   - [Simulation Environments (RL)](#simulation-environments-rl)
 - [State, Retrieval & Coordination Infrastructure](#state-retrieval--coordination-infrastructure)
-   - [Semantic Retrieval](#semantic-retrieval)
-   - [Workflow & Temporal Control](#workflow--temporal-control)
 - [Evaluation, Observability & Safety](#evaluation-observability--safety)
-   - [Key Capabilities](#key-capabilities)
-   - [Evaluation & Observability](#evaluation--observability)
-- [Patterns](#patterns)
+- [Theory](#theory)
+- [Design](#design)
 
 ## Introduction
 
@@ -60,13 +49,6 @@ All actions and decisions are logged, reproducible, and measurable to enable reg
 
 **Safety & Constraint Awareness**  
 Agents operate within explicit safety, correctness, and resource constraints that bound autonomy and prevent catastrophic behavior.
-
-## Papers
-
-- [STRIDE: A Systematic Framework for AI Modality Selection](https://arxiv.org/abs/2512.02228) - A research framework that helps decide when to use agentic systems versus simple LLM calls or guided assistants, emphasizing dynamism, planning, and task suitability <small>🔸PDF</small>.
-
-- [Toward Safe and Responsible AI Agents (Three-Pillar Model)](https://arxiv.org/abs/2601.06223) - A recent academic framework emphasizing transparency, accountability, and trustworthiness for responsible autonomous agents <small>🔸PDF</small>.
-
 
 ## Platforms & Frameworks
 
@@ -203,8 +185,16 @@ Protect against malicious inputs via model alignment, prompt filtering, or human
 - [Ragas](https://github.com/explodinggradients/ragas) - Evaluation toolkit for retrieval-augmented and multi-step agent behavior.
 
 
-## Patterns
+## Theory
 
-Reusable architectures and workflows for agentic systems.
+Foundational research defining when agentic systems are appropriate and the core safety and autonomy principles that govern them.
 
-- [Agentic AI Patterns](https://agentic-patterns.com/) - Catalog of real-world patterns such as planning loops, tool orchestration, and multi-agent collaboration.
+- [STRIDE: A Systematic Framework for AI Modality Selection](https://arxiv.org/abs/2512.02228) - A research framework that helps decide when to use agentic systems versus simple LLM calls or guided assistants, emphasizing dynamism, planning, and task suitability <small>🔸PDF</small>.
+
+- [Toward Safe and Responsible AI Agents (Three-Pillar Model)](https://arxiv.org/abs/2601.06223) - A recent academic framework emphasizing transparency, accountability, and trustworthiness for responsible autonomous agents <small>🔸PDF</small>.
+
+## Design
+
+Architectural principles and patterns for structuring agentic systems and coordinating planning, tools, memory, and multiple agents.
+
+- [Agentic AI Patterns](https://agentic-patterns.com/) - Catalog of architectural and workflow patterns for planning loops, tool orchestration, memory, and multi-agent coordination.
