@@ -103,7 +103,9 @@ End-to-end stacks and core frameworks for agentic systems.
   **Agent code:** Python  
   **Deployment:** Local / Cloud (containerized deployment possible)
 
-- **[E2B](https://github.com/e2b-dev)** - Open-source, secure environment with real-world tools for enterprise-grade agents. Cloud for AI Agents.
+- **[E2B](https://github.com/e2b-dev/E2B)** – Open-source runtime infrastructure for AI agents and apps, providing secure, isolated cloud sandboxes where agents can execute real code, use real tools, access files and networks, and perform long-running tasks. LLM-agnostic and designed to empower agents with real execution environments rather than just simulated reasoning.
+  **Agent code:** Python / JavaScript / TypeScript (via SDK)
+  **Deployment:** Cloud-based / self-hostable sandbox infrastructure
 
 - **[Google Agent Development Kit (ADK)](https://google.github.io/adk-docs/)** – An open-source, code-first toolkit for defining agents, tools, workflows, and multi-agent systems with built-in debugging, execution tracing, and extensibility. Designed to integrate with Vertex AI Agent Engine while remaining model-agnostic.  
   **Agent code:** Python, TypeScript, Go, Java
