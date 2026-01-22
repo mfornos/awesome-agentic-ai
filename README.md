@@ -71,53 +71,53 @@ End-to-end stacks and core frameworks for agentic systems.
 > You run the full agent runtime yourself. No managed orchestration backend.
 
 - **[Akka](https://akka.io/)** – Actor-based platform for building distributed, fault-tolerant agent systems. Strong fit for long-running, concurrent, and highly reliable agents.   
-  · _Agent Code_: Scala, Java
+  › _Agent Code_: Scala, Java
 
 - **[Dspy](https://github.com/stanfordnlp/dspy)** - Declarative framework for building modular AI software.  
-  · _Agent Code_: Python
+  › _Agent Code_: Python
 
 - **[Mastra](https://mastra.ai/)** – TypeScript-first framework for building agentic applications with explicit workflows, memory, evaluations, and tool integration.  
-  · _Agent Code_: TypeScript
+  › _Agent Code_: TypeScript
 
 - **[Pydantic](https://ai.pydantic.dev/)** – a Python agent framework designed to help you quickly, confidently, and painlessly build production grade applications and workflows with Generative AI.  
-  · _Agent Code_: Python
+  › _Agent Code_: Python
 
 - **[Rig](https://github.com/0xPlaygrounds/rig)** – Rust-first framework for building LLM-powered agents with strong typing, modular tools, and composable workflows. Emphasizes performance, safety, and production-grade systems.  
-  · _Agent Code_: Rust
+  › _Agent Code_: Rust
 
 - **[smolagents](https://github.com/huggingface/smolagents)** – Minimal, lightweight framework for building simple and transparent LLM agents with a strong emphasis on readability, hackability, and low abstraction overhead. Designed for learning, prototyping, and small production systems.  
-  · _Agent Code_: Python
+  › _Agent Code_: Python
 
 - **[Volt Agent](https://github.com/VoltAgent/voltagent)** - AI agent platform built on an open-source TypeScript agent framework.  
-  · _Agent Code_: TypeScript
+  › _Agent Code_: TypeScript
 
 ### Cloud-native Agent Platforms & Managed Stacks
 
 > You run agent code locally or in your cloud, but rely on a managed agent runtime / orchestration backend.
 
 - **[AWS Bedrock Agents](https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html)** – Managed service for building, orchestrating, and operating AI agents tightly integrated with AWS services and Bedrock models.  
-  · _Agent Code_: JSON / SDK-driven (Python, Java, etc.)  
-  · _Deployment_: AWS-managed service
+  › _Agent Code_: JSON / SDK-driven (Python, Java, etc.)  
+  › _Deployment_: AWS-managed service
 
 - **[Camel](https://github.com/camel-ai/camel)** – LLM-powered multi-agent framework enabling agents to play roles, collaborate, and coordinate tasks in complex workflows. Ideal for experimentation with multi-agent interaction patterns.  
-  · _Agent Code_: Python  
-  · _Deployment_: Local / Cloud (containerized deployment possible)
+  › _Agent Code_: Python  
+  › _Deployment_: Local / Cloud (containerized deployment possible)
 
 - **[E2B](https://github.com/e2b-dev/E2B)** – Open-source runtime infrastructure for AI agents and apps, providing secure, isolated cloud sandboxes where agents can execute real code, use real tools, access files and networks, and perform long-running tasks.  
-  · _Agent Code_: Python / JavaScript / TypeScript (via SDK)  
-  · _Deployment_: Cloud-based / self-hostable sandbox infrastructure
+  › _Agent Code_: Python / JavaScript / TypeScript (via SDK)  
+  › _Deployment_: Cloud-based / self-hostable sandbox infrastructure
 
 - **[Google Agent Development Kit (ADK)](https://google.github.io/adk-docs/)** – An open-source, code-first toolkit for defining agents, tools, workflows, and multi-agent systems with built-in debugging, execution tracing, and extensibility. Designed to integrate with Vertex AI Agent Engine while remaining model-agnostic.  
-  · _Agent Code_: Python, TypeScript, Go, Java  
-  · _Deployment_: Local / Your infrastructure + Vertex AI Agent Engine
+  › _Agent Code_: Python, TypeScript, Go, Java  
+  › _Deployment_: Local / Your infrastructure + Vertex AI Agent Engine
 
 - **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework)** – A framework for building, orchestrating and deploying AI agents and multi-agent workflows.  
-  · _Agent Code_: Python, C# (.NET)  
-  · _Deployment_: Local / Azure-hosted + Azure AI Agent Service
+  › _Agent Code_: Python, C# (.NET)  
+  › _Deployment_: Local / Azure-hosted + Azure AI Agent Service
 
 - **[OpenAI Agents SDK / AgentKit](https://platform.openai.com/docs/guides/agents-sdk)** – OpenAI's SDK and platform for building, orchestrating, and deploying agentic workflows with structured tool integration, observability, guardrails, and evaluation features on top of the Responses API.  
-  · _Agent Code_: Python, TypeScript, Go  
-  · _Deployment_: Local / Your infrastructure + OpenAI-managed backend
+  › _Agent Code_: Python, TypeScript, Go  
+  › _Deployment_: Local / Your infrastructure + OpenAI-managed backend
 
 
 ## Managed AI Infrastructure & Compute
