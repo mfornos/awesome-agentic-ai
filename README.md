@@ -103,7 +103,7 @@ End-to-end stacks and core frameworks for agentic systems.
   **Agent code:** Python  
   **Deployment:** Local / Cloud (containerized deployment possible)
 
-- **[E2B](https://github.com/e2b-dev/E2B)** – Open-source runtime infrastructure for AI agents and apps, providing secure, isolated cloud sandboxes where agents can execute real code, use real tools, access files and networks, and perform long-running tasks. LLM-agnostic and designed to empower agents with real execution environments rather than just simulated reasoning.
+- **[E2B](https://github.com/e2b-dev/E2B)** – Open-source runtime infrastructure for AI agents and apps, providing secure, isolated cloud sandboxes where agents can execute real code, use real tools, access files and networks, and perform long-running tasks.
   **Agent code:** Python / JavaScript / TypeScript (via SDK)
   **Deployment:** Cloud-based / self-hostable sandbox infrastructure
 
