@@ -1,6 +1,6 @@
 # Awesome Agentic AI
 
-> A curated, opinionated list of **concepts, patterns, platforms, standards, and technologies** for building **agentic AI systems**.
+> A curated, opinionated list of concepts, patterns, platforms, standards, and technologies for building agentic AI systems.
 
 ## Contents
 
