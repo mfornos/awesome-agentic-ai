@@ -2,21 +2,6 @@
 
 > A curated, opinionated list of principles, standards, and technologies for building agentic AI systems.
 
-## Contents
-
-- [Introduction](#introduction)
-- [Principles](#principles)
-- [Platforms & Frameworks](#platforms--frameworks)
-- [AI Infrastructure & Compute](#ai-infrastructure--compute)
-- [Standards & Specifications](#standards--specifications)
-- [Large Language Models](#large-language-models)
-- [State, Retrieval & Coordination Infrastructure](#state-retrieval--coordination-infrastructure)
-- [Evaluation, Observability & Safety](#evaluation-observability--safety)
-- [Theory](#theory)
-- [Design](#design)
-
-## Introduction
-
 **Agentic AI** refers to systems built around goal-directed agents rather than single-shot generation. These systems typically involve agents that can:
 
 - Form and revise plans over time
@@ -27,8 +12,19 @@
 
 This list focuses on agent-centric abstractions and infrastructure, spanning everything from low-level model formats to high-level control and observability primitives.
 
-## Principles
+## Contents
 
+- [Principles](#principles)
+- [Platforms & Frameworks](#platforms--frameworks)
+- [AI Infrastructure & Compute](#ai-infrastructure--compute)
+- [Standards & Specifications](#standards--specifications)
+- [Large Language Models](#large-language-models)
+- [State, Retrieval & Coordination Infrastructure](#state-retrieval--coordination-infrastructure)
+- [Evaluation, Observability & Safety](#evaluation-observability--safety)
+- [Theory](#theory)
+- [Design](#design)
+
+## Principles
 
 Foundational principles for building robust, auditable, and autonomous agentic systems:
 
