@@ -9,7 +9,7 @@
 - [Platforms & Frameworks](#platforms--frameworks)
    * [Self-hosted Agent Frameworks](#self-hosted-agent-frameworks)
    * [Cloud-native Agent Platforms & Managed Stacks](#cloud-native-agent-platforms--managed-stacks)
-- [Managed AI Infrastructure & Compute](#managed-ai-infrastructure--compute)
+- [AI Infrastructure & Compute](#ai-infrastructure--compute)
 - [Standards & Specifications](#standards-specifications)
    * [Open Economic & Micropayment Standards](#open-economic--micropayment-standards)
 - [Large Language Models](#large-language-models)
@@ -101,11 +101,7 @@ End-to-end stacks and core frameworks for agentic systems.
 
 - **[Camel](https://github.com/camel-ai/camel)** – LLM-powered multi-agent framework enabling agents to play roles, collaborate, and coordinate tasks in complex workflows. Ideal for experimentation with multi-agent interaction patterns.  
   › _Agent Code_: Python  
-  › _Deployment_: Local / Cloud (containerized deployment possible)
-
-- **[E2B](https://github.com/e2b-dev/E2B)** – Open-source runtime infrastructure for AI agents and apps, providing secure, isolated cloud sandboxes where agents can execute real code, use real tools, access files and networks, and perform long-running tasks.  
-  › _Agent Code_: Python / JavaScript / TypeScript (via SDK)  
-  › _Deployment_: Cloud-based / self-hostable sandbox infrastructure
+  › _Deployment_: Local / Cloud / Containerizable
 
 - **[Google Agent Development Kit (ADK)](https://google.github.io/adk-docs/)** – An open-source, code-first toolkit for defining agents, tools, workflows, and multi-agent systems with built-in debugging, execution tracing, and extensibility. Designed to integrate with Vertex AI Agent Engine while remaining model-agnostic.  
   › _Agent Code_: Python, TypeScript, Go, Java  
@@ -120,13 +116,15 @@ End-to-end stacks and core frameworks for agentic systems.
   › _Deployment_: Local / Your infrastructure + OpenAI-managed backend
 
 
-## Managed AI Infrastructure & Compute
+## AI Infrastructure & Compute
 
-Platforms providing managed compute, GPU resources, and isolation for running AI workloads and agents at scale. Not specific agent SDKs, but critical for production deployments.
+Platforms providing compute, GPU resources, and isolation for running AI workloads and agents at scale. Not specific agent SDKs, but critical for production deployments.
 
 - **[Akash](https://akash.network/)** — Decentralized cloud platform for deploying and managing containerized applications.
 - **[AWS EC2 / Bedrock + GPU](https://aws.amazon.com/bedrock/)** – Cloud compute infrastructure for AI workloads with GPU acceleration, networking isolation, and integration with other AWS services.
 - **[Blaxel](https://blaxel.ai/)** - Infrastructure platform that gives agents sandboxed compute environments to run AI code, background tasks and tool calls.
+- **[Daytona](https://www.daytona.io/)** – Secure, scalable execution infrastructure and runtime for agentic workflows and AI‑generated code.
+- **[E2B](https://github.com/e2b-dev/E2B)** – Open-source runtime infrastructure for AI agents and apps, providing secure, isolated cloud sandboxes where agents can execute real code, use real tools, access files and networks, and perform long-running tasks.
 - **[Google Cloud AI + Vertex AI](https://cloud.google.com/vertex-ai)** – Managed AI compute infrastructure and orchestration for ML workloads, including GPUs/TPUs, secure isolation, and scaling.
 - **[Modal](https://modal.com/)** – Managed AI compute infrastructure for running AI workloads at scale, with GPU acceleration, networking isolation, and integration with other services.
 - **[Nebius](https://nebius.com/)** – AI-native cloud platform with high-performance GPU clusters, managed infrastructure, observability, and deployment tools. Ideal for scaling agentic systems or large AI workloads in production.
