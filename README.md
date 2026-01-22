@@ -233,7 +233,8 @@ Please ensure:
 
 ## License
 
-This list is released under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.  
+This list is released under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
 
-You are free to copy, modify, distribute, and use the work, even for commercial purposes, **as long as you provide appropriate credit**.  
+You are free to copy, modify, distribute, and use the work, even for commercial purposes, **as long as you provide appropriate credit**.
+
 For more information, see [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
