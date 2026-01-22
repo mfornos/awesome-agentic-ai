@@ -32,7 +32,7 @@
 **Agentic AI** refers to systems built around goal-directed agents rather than single-shot generation. These systems typically involve agents that can:
 
 - Form and revise plans over time
-- Invoke external actions (tools, APIs, executables)
+- Invoke external actions (tools, APIs)
 - Maintain and reason over internal state and memory
 - Interact with other agents or humans
 - Execute multi-step processes with observable outcomes
