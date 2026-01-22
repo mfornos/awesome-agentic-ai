@@ -29,7 +29,7 @@
 
 ## Introduction
 
-**Agentic AI** refers to systems built around *goal-directed agents* rather than single-shot generation. These systems typically involve agents that can:
+**Agentic AI** refers to systems built around goal-directed agents rather than single-shot generation. These systems typically involve agents that can:
 
 - Form and revise plans over time
 - Invoke external actions (tools, APIs, executables)
@@ -37,7 +37,7 @@
 - Interact with other agents or humans
 - Execute multi-step processes with observable outcomes
 
-This list focuses on agent-centric abstractions, architectures, and infrastructure — from low-level model formats to high-level control and observability primitives.
+This list focuses on agent-centric abstractions and infrastructure, spanning everything from low-level model formats to high-level control and observability primitives.
 
 ## Principles
 
@@ -52,13 +52,13 @@ Foundational principles for building robust, auditable, and autonomous agentic s
 - **Explicit, Versioned State**  
   All memory, plans, and internal representations are observable, structured, and versioned. State must be durable where necessary and replayable for evaluation and auditing.
 
-- **Composable & Modular Architecture**  
+- **Composable & Modular Architecture**   
   Large behaviors emerge from coordinating specialized agents, skills, or workflows. Monolithic prompt chains are avoided in favor of predictable, testable modules.
 
-- **Traceable & Evaluatable Behavior**  
+- **Traceable & Evaluatable Behavior**    
   Every agent action, tool call, and decision path is logged, reproducible, and measurable. Evaluation is integral to system design, enabling regression testing, auditing, and performance optimization.
 
-- **Safety & Constraint Awareness** 
+- **Safety & Constraint Awareness**  
   Agents operate within explicit safety, correctness, and resource constraints. Autonomy is tempered by boundaries that prevent catastrophic behavior.
 
 
