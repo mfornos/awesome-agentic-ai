@@ -8,37 +8,15 @@ This list focuses on the abstractions and infrastructure that make such systems 
 
 ## Contents
 
-- [Principles](#principles)
 - [Platforms & Frameworks](#platforms--frameworks)
 - [AI Infrastructure & Compute](#ai-infrastructure--compute)
 - [Standards & Specifications](#standards--specifications)
 - [Large Language Models](#large-language-models)
 - [State, Retrieval & Coordination Infrastructure](#state-retrieval--coordination-infrastructure)
 - [Evaluation, Observability & Safety](#evaluation-observability--safety)
+- [Principles](#principles)
 - [Theory](#theory)
 - [Design](#design)
-
-## Principles
-
-Foundational principles for building robust, auditable, and autonomous agentic systems:
-
-**Goal-Directed Control Loops**  
-Agents operate in continuous perceive-reason-act cycles with built-in monitoring, failure detection, and corrective feedback, rather than one-shot generation.
-
-**Tool-First Reasoning**  
-External tools, APIs, and executables are first-class components of reasoning, not post-processing steps.
-
-**Explicit, Versioned State**  
-Plans, memory, and internal representations are structured, observable, and versioned to support durability, replay, and auditing.
-
-**Composable & Modular Architecture**  
-Complex behavior emerges from coordinating specialized agents, skills, and workflows, not monolithic prompt chains.
-
-**Traceable & Evaluatable Behavior**  
-All actions and decisions are logged, reproducible, and measurable to enable regression testing, auditing, and optimization.
-
-**Safety & Constraint Awareness**  
-Agents operate within explicit safety, correctness, and resource constraints that bound autonomy and prevent catastrophic behavior.
 
 ## Platforms & Frameworks
 
@@ -174,6 +152,27 @@ Protect against malicious inputs via model alignment, prompt filtering, or human
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - Compare prompts, models, and configurations with reproducible tests.
 - [Ragas](https://github.com/explodinggradients/ragas) - Evaluation toolkit for retrieval-augmented and multi-step agent behavior.
 
+## Principles
+
+Foundational principles for building robust, auditable, and autonomous agentic systems:
+
+**Goal-Directed Control Loops**  
+Agents operate in continuous perceive-reason-act cycles with built-in monitoring, failure detection, and corrective feedback, rather than one-shot generation.
+
+**Tool-First Reasoning**  
+External tools, APIs, and executables are first-class components of reasoning, not post-processing steps.
+
+**Explicit, Versioned State**  
+Plans, memory, and internal representations are structured, observable, and versioned to support durability, replay, and auditing.
+
+**Composable & Modular Architecture**  
+Complex behavior emerges from coordinating specialized agents, skills, and workflows, not monolithic prompt chains.
+
+**Traceable & Evaluatable Behavior**  
+All actions and decisions are logged, reproducible, and measurable to enable regression testing, auditing, and optimization.
+
+**Safety & Constraint Awareness**  
+Agents operate within explicit safety, correctness, and resource constraints that bound autonomy and prevent catastrophic behavior.
 
 ## Theory
 
