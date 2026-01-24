@@ -11,12 +11,13 @@ This list focuses on the abstractions and infrastructure that make such systems 
 - [Platforms & Frameworks](#platforms--frameworks)
 - [AI Infrastructure & Compute](#ai-infrastructure--compute)
 - [Standards & Specifications](#standards--specifications)
-- [Large Language Models](#large-language-models)
+- [Language Models](#language-models)
 - [State, Retrieval & Coordination Infrastructure](#state-retrieval--coordination-infrastructure)
 - [Evaluation, Observability & Safety](#evaluation-observability--safety)
 - [Principles](#principles)
 - [Theory](#theory)
 - [Design](#design)
+- [Hardware Accelerators](#hardware-accelerators)
 
 ## Platforms & Frameworks
 
@@ -27,6 +28,8 @@ End-to-end stacks and core frameworks for agentic systems.
 > You run the full agent runtime yourself. No managed orchestration backend.
 
 - [Akka](https://akka.io/) - Actor-based platform for building distributed, fault-tolerant agent systems. Strong fit for long-running, concurrent, and highly reliable agents. Languages: Scala, Java.
+
+- [Any Agent](https://github.com/mozilla-ai/any-agent) - A single interface to use and evaluate different agent frameworks. Language: Python.
 
 - [Dspy](https://github.com/stanfordnlp/dspy) - Declarative framework for building modular AI software. Language: Python.
 
@@ -52,7 +55,7 @@ End-to-end stacks and core frameworks for agentic systems.
 
 - [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) - A framework for building, orchestrating and deploying AI agents and multi-agent workflows. Languages: Python, C# (.NET). Deployment: Local / Azure-hosted + Azure AI Agent Service.
 
-- [OpenAI Agents SDK / AgentKit](https://platform.openai.com/docs/guides/agents-sdk) - OpenAI's SDK and platform for building, orchestrating, and deploying agentic workflows with structured tool integration, observability, guardrails, and evaluation features on top of the Responses API. Languages: Python, TypeScript, Go. Deployment: Local / Your infrastructure + OpenAI-managed backend.
+- [OpenAI Agents SDK](https://platform.openai.com/docs/guides/agents-sdk) - OpenAI's SDK and platform for building, orchestrating, and deploying agentic workflows with structured tool integration, observability, guardrails, and evaluation features on top of the Responses API. Languages: Python, TypeScript, Go. Deployment: Local / Your infrastructure + OpenAI-managed backend.
 
 
 ## AI Infrastructure & Compute
@@ -80,7 +83,7 @@ Protocols and conventions enabling interoperability.
 
 - [x402 Protocol](https://docs.cdp.coinbase.com/x402/docs/welcome) - An experimental open payment protocol that repurposes the dormant HTTP 402 status code to enable autonomous, on‑chain micropayments for APIs, services, and digital resources.
 
-## Large Language Models
+## Language Models
 
 ### Inference & Serving
 
@@ -182,8 +185,30 @@ Foundational research defining when agentic systems are appropriate and the core
 
 - [Toward Safe and Responsible AI Agents (Three-Pillar Model)](https://arxiv.org/abs/2601.06223) - A recent academic framework emphasizing transparency, accountability, and trustworthiness for responsible autonomous agents <small>🔸PDF</small>.
 
+- [A Survey of Small Language Models](https://arxiv.org/abs/2410.20011) - A comprehensive survey on Small Language Models, focusing on their architectures, training techniques, and model compression techniques <small>🔸PDF</small>.
+
 ## Design
 
 Architectural principles and patterns for structuring agentic systems and coordinating planning, tools, memory, and multiple agents.
 
 - [Agentic AI Patterns](https://agentic-patterns.com/) - Catalog of architectural and workflow patterns for planning loops, tool orchestration, memory, and multi-agent coordination.
+
+## Hardware Accelerators
+
+This section lists emerging and non-traditional AI hardware accelerators, organized by processor paradigm rather than by vendor. The focus is on specialized architectures that depart from conventional GPUs/TPUs to target efficiency, stochastic computing, or brain-inspired models.
+
+### Neuromorphic Processors
+
+- [Akida](https://brainchip.com/technology/) - Neuromorphic Neural Processing Units designed for ultra-low-power, event-driven AI inference at the edge. Akida implements spiking neural networks (SNNs) with on-chip learning and asynchronous processing, making them well-suited for always-on sensing, vision, and audio in embedded systems.
+
+- [OpenNeuromorphic](https://open-neuromorphic.org) - A global community fostering education, research, and open-source collaboration in brain-inspired AI and hardware.
+
+### Stochastic / Probabilistic Processors
+
+- [Extropic](https://extropic.ai/) - Thermodynamic Stochastic Processing Units focused on accelerating probabilistic and sampling-based workloads. Extropic's architecture leverages physical noise and thermodynamic principles to efficiently support Monte Carlo simulation, Bayesian inference, and optimization tasks.
+
+### Reconfigurable / Open Source FPGA
+
+- [LiteX](https://github.com/enjoy-digital/litex) - An open-source SoC builder framework widely used to construct custom FPGA-based systems and attach open accelerator IP.
+- [NVDLA](https://nvdla.org/) - A free and open architecture that promotes a standard way to design deep learning inference accelerators.
+- [OpenFPGA](https://github.com/lnis-uofu/OpenFPGA) - An open-source FPGA framework for building custom reconfigurable fabrics and experimenting with new FPGA architectures and toolchains.
