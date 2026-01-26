@@ -37,6 +37,8 @@ End-to-end stacks and core frameworks for agentic systems.
 
 - [Pydantic](https://ai.pydantic.dev/) - Python agent framework designed to help you quickly, confidently, and painlessly build production grade applications and workflows with Generative AI. Language: Python.
 
+- [Ray](https://github.com/ray-project/ray) - Unified framework for scaling AI and Python applications. Languages: C++, Java, Python.
+
 - [Rig](https://github.com/0xPlaygrounds/rig) - Rust-first framework for building LLM-powered agents with strong typing, modular tools, and composable workflows. Emphasizes performance, safety, and production-grade systems. Language: Rust.
 
 - [smolagents](https://github.com/huggingface/smolagents) - Minimal, lightweight framework for building simple and transparent LLM agents with a strong emphasis on readability, hackability, and low abstraction overhead. Designed for learning, prototyping, and small production systems. Language: Python.
