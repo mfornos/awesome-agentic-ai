@@ -66,7 +66,7 @@ Platforms providing compute, GPU resources, and isolation for running AI workloa
 
 - [Akash](https://akash.network/) - Decentralized cloud platform for deploying and managing containerized applications.
 - [AWS EC2 / Bedrock + GPU](https://aws.amazon.com/bedrock/) - Cloud compute infrastructure for AI workloads with GPU acceleration, networking isolation, and integration with other AWS services.
-- [Blaxel](https://blaxel.ai/)** - Infrastructure platform that gives agents sandboxed compute environments to run AI code, background tasks and tool calls.
+- [Blaxel](https://blaxel.ai/) - Infrastructure platform that gives agents sandboxed compute environments to run AI code, background tasks and tool calls.
 - [Daytona](https://www.daytona.io/) - Secure, scalable execution infrastructure and runtime for agentic workflows and AI‑generated code.
 - [E2B](https://github.com/e2b-dev/E2B) - Open-source runtime infrastructure for AI agents and apps, providing secure, isolated cloud sandboxes where agents can execute real code, use real tools, access files and networks, and perform long-running tasks.
 - [Google Cloud AI + Vertex AI](https://cloud.google.com/vertex-ai) - Managed AI compute infrastructure and orchestration for ML workloads, including GPUs/TPUs, secure isolation, and scaling.
