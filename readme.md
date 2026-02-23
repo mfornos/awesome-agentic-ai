@@ -90,7 +90,9 @@ Protocols and conventions enabling interoperability.
 ### Inference & Serving
 
 - [Ollama](https://ollama.com/) - Lightweight, open-source LLM server for local or networked model serving.
+- [SGLang](https://github.com/sgl-project/sglang) - High-performance serving framework for large language models and multimodal models.
 - [llama.cpp](https://github.com/ggml-org/llama.cpp) - Portable LLM inference in C/C++ used for efficient local inference.
+- [vLLM](https://github.com/vllm-project/vllm) - High-throughput and memory-efficient inference and serving engine for LLMs.
 
 ### Model Formats
 
