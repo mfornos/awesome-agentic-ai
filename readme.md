@@ -153,7 +153,6 @@ Protect against malicious inputs via model alignment, prompt filtering, or human
 
 ### Evaluation & Observability
 
-- [LangSmith](https://www.langchain.com/langsmith) - End-to-end tracing, dataset management, replay, and audit logging.
 - [Maxim](https://maxim.ai/) - End-to-end evaluation and observability platform.
 - [OpenAI Evals](https://github.com/openai/evals) - Behavioral testing framework for multi-step workflows, including safety checks.
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - Compare prompts, models, and configurations with reproducible tests.
@@ -200,6 +199,10 @@ Architectural principles and patterns for structuring agentic systems and coordi
 ## Hardware Accelerators
 
 This section lists emerging and non-traditional AI hardware accelerators, organized by processor paradigm rather than by vendor. The focus is on specialized architectures that depart from conventional GPUs/TPUs to target efficiency, stochastic computing, or brain-inspired models.
+
+## RISC-V Vector Processor
+
+- [Simplex Micro](https://www.simplexmicro.com/) - RISC-V processor platform optimized for vector processing and edge AI.
 
 ### Neuromorphic Processors
 
