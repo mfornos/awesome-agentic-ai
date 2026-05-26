@@ -157,6 +157,7 @@ Protect against malicious inputs via model alignment, prompt filtering, or human
 - [OpenAI Evals](https://github.com/openai/evals) - Behavioral testing framework for multi-step workflows, including safety checks.
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - Compare prompts, models, and configurations with reproducible tests.
 - [Ragas](https://github.com/explodinggradients/ragas) - Evaluation toolkit for retrieval-augmented and multi-step agent behavior.
+- [Dominion Observatory](https://github.com/vdineshk/dominion-observatory) - Behavioral trust scoring service for MCP servers, providing runtime trust assessment, SLA grades, and anomaly detection for agentic tool integrations.
 
 ## Principles
 
