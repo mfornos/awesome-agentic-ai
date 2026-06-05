@@ -194,6 +194,9 @@ Foundational research defining when agentic systems are appropriate and the core
 
 - [A Survey of Small Language Models](https://arxiv.org/abs/2410.20011) - A comprehensive survey on Small Language Models, focusing on their architectures, training techniques, and model compression techniques <small>🔸PDF</small>.
 
+- [The Latent Space: Foundation, Evolution, Mechanism, Ability, and Outlook](https://github.com/YU-deep/Awesome-Latent-Space) - Aims to provide a unified and up-to-date (2 Apr 2026) landscape of latent space in language-based
+models.
+
 ## Design
 
 Architectural principles and patterns for structuring agentic systems and coordinating planning, tools, memory, and multiple agents.
