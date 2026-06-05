@@ -83,7 +83,10 @@ Protocols and conventions enabling interoperability.
 
 ### Open Economic & Micropayment Standards
 
-- [x402 Protocol](https://docs.cdp.coinbase.com/x402/docs/welcome) - An experimental open payment protocol that repurposes the dormant HTTP 402 status code to enable autonomous, on‑chain micropayments for APIs, services, and digital resources.
+- [AP2](https://ap2-protocol.org/) - Agent Payments Protocol (AP2) is an open protocol designed to enable secure, reliable, and interoperable agent commerce for developers, merchants, and the payments industry.
+- [MPP](https://mpp.dev/) - Machine Payments Protocol (MPP) is an open protocol for machine-to-machine payments. Charge for API requests, tool calls, or content. Agents and apps pay per request in the same HTTP call.
+- [UCP](https://ucp.dev/) - Universal Commerce Protocol (UCP) provides building blocks for agentic commerce across industries.
+- [x402](https://docs.cdp.coinbase.com/x402/docs/welcome) - An experimental open payment protocol that repurposes the dormant HTTP 402 status code to enable autonomous, on‑chain micropayments for APIs, services, and digital resources.
 
 ## Language Models
 
