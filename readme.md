@@ -128,7 +128,7 @@ Protocols and conventions enabling interoperability.
 
 ### Workflow & Temporal Control
 
-- [Conductor](https://github.com/conductor-oss/conductor) - Agentic workflow engine with native AI plan support and durable exeuction.
+- [Conductor](https://github.com/conductor-oss/conductor) - Agentic workflow engine with native AI plan support and durable execution.
 - [Temporal](https://temporal.io/) - Durable workflow engine for orchestrating long-running agent processes.
 
 ## Evaluation, Observability & Safety
