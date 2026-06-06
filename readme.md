@@ -205,7 +205,7 @@ Architectural principles and patterns for structuring agentic systems and coordi
 
 ## Hardware Accelerators
 
-This section lists emerging and non-traditional AI hardware accelerators, organized by processor paradigm rather than by vendor. The focus is on specialized architectures that depart from conventional GPUs/TPUs to target efficiency, stochastic computing, or brain-inspired models.
+This section lists emerging and non-traditional AI hardware accelerators. The focus is on specialized architectures that depart from conventional GPUs/TPUs to target efficiency, stochastic computing, or brain-inspired models.
 
 ### RISC-V Vector Processor
 
