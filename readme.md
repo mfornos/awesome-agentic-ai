@@ -88,6 +88,10 @@ Protocols and conventions enabling interoperability.
 - [UCP](https://ucp.dev/) - Universal Commerce Protocol (UCP) provides building blocks for agentic commerce across industries.
 - [x402](https://docs.cdp.coinbase.com/x402/docs/welcome) - An experimental open payment protocol that repurposes the dormant HTTP 402 status code to enable autonomous, on‑chain micropayments for APIs, services, and digital resources.
 
+### Trust & Identity for Agents
+
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - On-chain trust scoring and reputation verification for AI agent wallets on Solana. MCP server providing `score_agent` and `preflight_check` tools — query verifiable wallet reputation before an agent executes a high-value action with a counterpart. Issues signed, on-chain-verifiable trust receipts via x402 micropayments. Addresses the agent identity gap in x402 and A2A workflows.
+
 ## Language Models
 
 ### Inference & Serving
