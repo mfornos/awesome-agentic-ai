@@ -186,8 +186,6 @@ Agents operate within explicit safety, correctness, and resource constraints tha
 
 ## Theory
 
-Foundational research defining when agentic systems are appropriate and the core safety and autonomy principles that govern them.
-
 - [STRIDE: A Systematic Framework for AI Modality Selection](https://arxiv.org/abs/2512.02228) - A research framework that helps decide when to use agentic systems versus simple LLM calls or guided assistants, emphasizing dynamism, planning, and task suitability <small>🔸PDF</small>.
 
 - [Toward Safe and Responsible AI Agents (Three-Pillar Model)](https://arxiv.org/abs/2601.06223) - A recent academic framework emphasizing transparency, accountability, and trustworthiness for responsible autonomous agents <small>🔸PDF</small>.
@@ -196,6 +194,8 @@ Foundational research defining when agentic systems are appropriate and the core
 
 - [The Latent Space: Foundation, Evolution, Mechanism, Ability, and Outlook](https://github.com/YU-deep/Awesome-Latent-Space) - Aims to provide a unified and up-to-date (2 Apr 2026) landscape of latent space in language-based
 models.
+
+- [L3TC: Leveraging RWKV for Learned Lossless Low-Complexity Text Compression](https://github.com/alipay/L3TC-leveraging-rwkv-for-learned-lossless-low-complexity-text-compression) - L3TC is a low-complexity, learned lossless text compressor using an RWKV backbone that achieves 48% better compression than gzip with 50x fewer parameters. It provides megabytes-per-second decoding speeds.
 
 ## Design
 
