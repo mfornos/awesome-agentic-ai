@@ -33,6 +33,8 @@ End-to-end stacks and core frameworks for agentic systems.
 
 - [Dspy](https://github.com/stanfordnlp/dspy) - Declarative framework for building modular AI software. Language: Python.
 
+- [Hephaestus](https://github.com/agentlas-ai/Hephaestus) - Open Agent OS for Claude Code, Codex, and Cursor with a meta-agent builder, A2A Hub routing, local ontology, and memory/security gates. Language: Python.
+
 - [Mastra](https://mastra.ai/) - TypeScript-first framework for building agentic applications with explicit workflows, memory, evaluations, and tool integration.  Language: TypeScript.
 
 - [Pydantic](https://ai.pydantic.dev/) - Python agent framework designed to help you quickly, confidently, and painlessly build production grade applications and workflows with Generative AI. Language: Python.
