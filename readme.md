@@ -31,6 +31,8 @@ End-to-end stacks and core frameworks for agentic systems.
 
 - [Any Agent](https://github.com/mozilla-ai/any-agent) - A single interface to use and evaluate different agent frameworks. Language: Python.
 
+- [Armorer](https://github.com/ArmorerLabs/Armorer) - Local control plane for running AI agents with sandboxes, approvals, guardrails, credentials, and runtime health. Language: TypeScript.
+
 - [Dspy](https://github.com/stanfordnlp/dspy) - Declarative framework for building modular AI software. Language: Python.
 
 - [Mastra](https://mastra.ai/) - TypeScript-first framework for building agentic applications with explicit workflows, memory, evaluations, and tool integration.  Language: TypeScript.
@@ -157,6 +159,7 @@ Protect against malicious inputs via model alignment, prompt filtering, or human
 
 ### Evaluation & Observability
 
+- [Armorer Guard](https://github.com/ArmorerLabs/Armorer-Guard) - Local Rust scanner and MCP proxy for AI-agent prompt injection, credential leakage, exfiltration, and risky tool-call arguments.
 - [Maxim](https://maxim.ai/) - End-to-end evaluation and observability platform.
 - [OpenAI Evals](https://github.com/openai/evals) - Behavioral testing framework for multi-step workflows, including safety checks.
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - Compare prompts, models, and configurations with reproducible tests.
