@@ -11,6 +11,7 @@ This list focuses on the abstractions and infrastructure that make such systems 
 - [Platforms & Frameworks](#platforms--frameworks)
 - [AI Infrastructure & Compute](#ai-infrastructure--compute)
 - [Standards & Specifications](#standards--specifications)
+- [Machine Learning](#machine-learning)
 - [Language Models](#language-models)
 - [State, Retrieval & Coordination Infrastructure](#state-retrieval--coordination-infrastructure)
 - [Evaluation, Observability & Safety](#evaluation-observability--safety)
@@ -87,6 +88,12 @@ Protocols and conventions enabling interoperability.
 - [MPP](https://mpp.dev/) - Machine Payments Protocol (MPP) is an open protocol for machine-to-machine payments. Charge for API requests, tool calls, or content. Agents and apps pay per request in the same HTTP call.
 - [UCP](https://ucp.dev/) - Universal Commerce Protocol (UCP) provides building blocks for agentic commerce across industries.
 - [x402](https://docs.cdp.coinbase.com/x402/docs/welcome) - An experimental open payment protocol that repurposes the dormant HTTP 402 status code to enable autonomous, on‑chain micropayments for APIs, services, and digital resources.
+
+## Machine Learning
+
+- [Awesome JAX](https://github.com/n2cholas/awesome-jax) - A curated list of awesome JAX libraries, projects, and other resources.
+- [JAX](https://github.com/jax-ml/jax) - Python library for accelerator-oriented array computation and program transformation, designed for high-performance numerical computing and large-scale machine learning.
+- [FLAX](https://github.com/google/flax) - A neural network library and ecosystem for JAX designed for flexibility.
 
 ## Language Models
 
