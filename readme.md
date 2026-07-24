@@ -34,6 +34,8 @@ End-to-end stacks and core frameworks for agentic systems.
 
 - [Dspy](https://github.com/stanfordnlp/dspy) - Declarative framework for building modular AI software. Language: Python.
 
+- [Hivekeep](https://github.com/MarlBurroW/hivekeep) - Self-hosted platform to run a team of specialized agents with persistent memory and a web UI. Agents coordinate, build their own tools, mini-apps and plugins, and are reachable over Telegram, Slack, Discord and Matrix. Language: TypeScript.
+
 - [Mastra](https://mastra.ai/) - TypeScript-first framework for building agentic applications with explicit workflows, memory, evaluations, and tool integration.  Language: TypeScript.
 
 - [Pydantic](https://ai.pydantic.dev/) - Python agent framework designed to help you quickly, confidently, and painlessly build production grade applications and workflows with Generative AI. Language: Python.
