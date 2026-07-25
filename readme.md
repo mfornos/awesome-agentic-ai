@@ -197,6 +197,8 @@ Agents operate within explicit safety, correctness, and resource constraints tha
 
 - [Toward Safe and Responsible AI Agents (Three-Pillar Model)](https://arxiv.org/abs/2601.06223) - A recent academic framework emphasizing transparency, accountability, and trustworthiness for responsible autonomous agents <small>🔸PDF</small>.
 
+- [PerspectiveGap: A Benchmark for Multi-Agent Orchestration Prompting](https://arxiv.org/abs/2606.08878) - The first benchmark for multi-agent orchestration prompt writing covers 110 scenarios and 10 topologies, including role-boundary omissions and information leakage <small>🔸PDF</small>.
+
 - [A Survey of Small Language Models](https://arxiv.org/abs/2410.20011) - A comprehensive survey on Small Language Models, focusing on their architectures, training techniques, and model compression techniques <small>🔸PDF</small>.
 
 - [The Latent Space: Foundation, Evolution, Mechanism, Ability, and Outlook](https://github.com/YU-deep/Awesome-Latent-Space) - Aims to provide a unified and up-to-date (2 Apr 2026) landscape of latent space in language-based
