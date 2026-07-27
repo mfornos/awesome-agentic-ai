@@ -10,6 +10,7 @@ This list focuses on the abstractions and infrastructure that make such systems 
 
 - [Platforms & Frameworks](#platforms--frameworks)
 - [AI Infrastructure & Compute](#ai-infrastructure--compute)
+- [Data Management](#data-management)
 - [Standards & Specifications](#standards--specifications)
 - [Machine Learning](#machine-learning)
 - [Language Models](#language-models)
@@ -76,6 +77,12 @@ Platforms providing compute, GPU resources, and isolation for running AI workloa
 - [Modal](https://modal.com/) - Managed AI compute infrastructure for running AI workloads at scale, with GPU acceleration, networking isolation, and integration with other services.
 - [Nebius](https://nebius.com/) - AI-native cloud platform with high-performance GPU clusters, managed infrastructure, observability, and deployment tools. Ideal for scaling agentic systems or large AI workloads in production.
 
+## Data Management
+
+- [Data Hub](https://github.com/datahub-project/datahub) - Open-source AI data catalog that enables discovery, governance, and observability across your entire data ecosystem.
+- [Open Metadata](https://github.com/open-metadata/OpenMetadata) - Open context layer for data and AI.
+- [Unity Catalog](https://unitycatalog.io/) - Open, multimodal catalog for data and AI.
+
 ## Standards & Specifications
 
 Protocols and conventions enabling interoperability.
@@ -109,6 +116,7 @@ Protocols and conventions enabling interoperability.
 ### Model Formats
 
 - [GGUF](https://github.com/ggerganov/ggml/blob/master/docs/gguf.md) - Efficient, extensible binary format used with `llama.cpp` runtimes.
+- [OAAX](https://www.oaax.org/) - Facilitates interoperability between AI models and diverse XPU architectures, ensuring optimal performance and efficiency in edge computing environments.
 - [ONNX](https://onnx.ai/) - Open standard for cross-runtime ML model representation.
 - [SafeTensors](https://github.com/huggingface/safetensors) - Safe, fast tensor serialization standard.
 
@@ -167,6 +175,7 @@ Protect against malicious inputs via model alignment, prompt filtering, or human
 ### Evaluation & Observability
 
 - [Maxim](https://maxim.ai/) - End-to-end evaluation and observability platform.
+- [Monocle](https://github.com/monocle2ai/monocle) - GenAI-specific observability layer built on OpenTelemetry.
 - [OpenAI Evals](https://github.com/openai/evals) - Behavioral testing framework for multi-step workflows, including safety checks.
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - Compare prompts, models, and configurations with reproducible tests.
 - [Ragas](https://github.com/explodinggradients/ragas) - Evaluation toolkit for retrieval-augmented and multi-step agent behavior.
