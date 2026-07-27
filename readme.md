@@ -34,6 +34,8 @@ End-to-end stacks and core frameworks for agentic systems.
 
 - [Dspy](https://github.com/stanfordnlp/dspy) - Declarative framework for building modular AI software. Language: Python.
 
+- [fractal](https://github.com/plasma-ai/fractal) - Python runtime for hierarchical coding-agent loops with recursive delegation, per-node Git worktrees, persistent SQLite state, and configurable limits. Language: Python.
+
 - [Mastra](https://mastra.ai/) - TypeScript-first framework for building agentic applications with explicit workflows, memory, evaluations, and tool integration.  Language: TypeScript.
 
 - [Pydantic](https://ai.pydantic.dev/) - Python agent framework designed to help you quickly, confidently, and painlessly build production grade applications and workflows with Generative AI. Language: Python.
