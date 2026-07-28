@@ -179,6 +179,7 @@ Protect against malicious inputs via model alignment, prompt filtering, or human
 - [OpenAI Evals](https://github.com/openai/evals) - Behavioral testing framework for multi-step workflows, including safety checks.
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - Compare prompts, models, and configurations with reproducible tests.
 - [Ragas](https://github.com/explodinggradients/ragas) - Evaluation toolkit for retrieval-augmented and multi-step agent behavior.
+- [ClawBench](https://claw-bench.com/) ([paper](https://arxiv.org/abs/2604.08523), [code](https://github.com/TIGER-AI-Lab/ClawBench)) - Real-world web-agent evaluation across 283 tasks and 163 live websites, with request interception and five layers of execution evidence.
 
 ## Principles
 
