@@ -33,6 +33,7 @@ End-to-end stacks and core frameworks for agentic systems.
 
 - [Any Agent](https://github.com/mozilla-ai/any-agent) - A single interface to use and evaluate different agent frameworks. Language: Python.
 
+- [CompozyOS](https://github.com/compozy/compozy) - Self-hosted agent operating system that runs agent CLIs as a team on loops and schedules, with shared memory, permissions and approvals.
 - [Dspy](https://github.com/stanfordnlp/dspy) - Declarative framework for building modular AI software. Language: Python.
 
 - [fractal](https://github.com/plasma-ai/fractal) - Python runtime for hierarchical coding-agent loops with recursive delegation, per-node Git worktrees, persistent SQLite state, and configurable limits. Language: Python.
