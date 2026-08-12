@@ -179,6 +179,7 @@ Protect against malicious inputs via model alignment, prompt filtering, or human
 - [OpenAI Evals](https://github.com/openai/evals) - Behavioral testing framework for multi-step workflows, including safety checks.
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - Compare prompts, models, and configurations with reproducible tests.
 - [Ragas](https://github.com/explodinggradients/ragas) - Evaluation toolkit for retrieval-augmented and multi-step agent behavior.
+- [Traccia](https://traccia.ai) - OpenTelemetry-native observability, governance, and compliance for AI agents and LLM applications. Integrates with OpenAI Agents SDK, CrewAI, Langchain, Claude Code, and more.
 
 ## Principles
 
