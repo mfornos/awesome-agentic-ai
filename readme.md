@@ -134,6 +134,10 @@ Protocols and conventions enabling interoperability.
 
 ## State, Retrieval & Coordination Infrastructure
 
+### Agent Memory & Context
+
+- [LWC (Local Wiki CLI)](https://github.com/JanYork/llm-wiki-cli) - Local-first, source-grounded project memory for coding agents with citations and provenance, bounded read-only MCP retrieval, atomic changesets, and optional document and code knowledge graphs.
+
 ### Semantic Retrieval
 
 - [LanceDB](https://lancedb.github.io/lancedb/) - Arrow-native versioned vector store suited for replay and dataset management.
