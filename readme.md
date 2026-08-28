@@ -25,6 +25,10 @@ This list focuses on the abstractions and infrastructure that make such systems 
 
 End-to-end stacks and core frameworks for agentic systems.
 
+### Local-first Agent Platforms
+
+- [Orkas](https://github.com/Orkas-AI/Orkas) - Open-source TypeScript desktop platform that coordinates a Commander and specialist agents through one conversation. Deployment: Local desktop.
+
 ### Self-hosted Agent Frameworks
 
 > You run the full agent runtime yourself. No managed orchestration backend.
