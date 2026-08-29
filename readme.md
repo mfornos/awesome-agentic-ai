@@ -179,6 +179,7 @@ Protect against malicious inputs via model alignment, prompt filtering, or human
 - [OpenAI Evals](https://github.com/openai/evals) - Behavioral testing framework for multi-step workflows, including safety checks.
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - Compare prompts, models, and configurations with reproducible tests.
 - [Ragas](https://github.com/explodinggradients/ragas) - Evaluation toolkit for retrieval-augmented and multi-step agent behavior.
+- [rust-norion](https://github.com/yanghao1143/rust-norion) - Rust AI control-layer prototype for routing, memory gates, evidence checks, rollback, and auditable self-evolution. Language: Rust.
 
 ## Principles
 
