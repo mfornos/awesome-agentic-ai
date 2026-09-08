@@ -49,6 +49,8 @@ End-to-end stacks and core frameworks for agentic systems.
 
 - [Volt Agent](https://github.com/VoltAgent/voltagent) - AI agent platform built on an open-source TypeScript agent framework. Language: TypeScript.
 
+- [YYLO](https://github.com/yylo-dev/yylo) - Command-line orchestrator for coding agents, repeatable workflows, and receipt-backed repository changes, with typed task, validation, merge, and release-readiness boundaries. Creates a dedicated branch/worktree per task; the merge queue owns risk-based review. Language: TypeScript.
+
 ### Cloud-native Agent Platforms & Managed Stacks
 
 > You run agent code locally or in your cloud, but rely on a managed agent runtime / orchestration backend.
