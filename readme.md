@@ -222,6 +222,7 @@ models.
 Architectural principles and patterns for structuring agentic systems and coordinating planning, tools, memory, and multiple agents.
 
 - [Agentic AI Patterns](https://agentic-patterns.com/) - Catalog of architectural and workflow patterns for planning loops, tool orchestration, memory, and multi-agent coordination.
+- [Intelligent Enterprise Integration Architecture Foundry](https://github.com/pusinghal-arch/integration-foundry) - Reference architectures and ADRs for governing agentic AI inside SAP/ERP systems: policy gates that stay independent of model confidence, blast-radius-scaled human approval, and trust signals distinct from raw risk scores.
 
 ## Hardware Accelerators
 
