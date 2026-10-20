@@ -146,6 +146,7 @@ Protocols and conventions enabling interoperability.
 ### Workflow & Temporal Control
 
 - [Conductor](https://github.com/conductor-oss/conductor) - Agentic workflow engine with native AI plan support and durable execution.
+- [Frink](https://github.com/benord-labs/frink) - Desktop-first, open-source (MIT) application for running parallel agents, and multi-step custom workflows triggered by schedules, webhooks or events from tools like Linear and Sentry, across your already-used providers.
 - [Temporal](https://temporal.io/) - Durable workflow engine for orchestrating long-running agent processes.
 
 ## Evaluation, Observability & Safety
