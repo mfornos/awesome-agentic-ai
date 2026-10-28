@@ -217,11 +217,17 @@ models.
 
 - [L3TC: Leveraging RWKV for Learned Lossless Low-Complexity Text Compression](https://github.com/alipay/L3TC-leveraging-rwkv-for-learned-lossless-low-complexity-text-compression) - L3TC is a low-complexity, learned lossless text compressor using an RWKV backbone that achieves 48% better compression than gzip with 50x fewer parameters. It provides megabytes-per-second decoding speeds.
 
+- [What's Missing in Autonomous Research? A Systematization of Systems, Benchmarks, and Verification](https://haizhaoyang.github.io/research/autoresearch-survey.html) - Codes 56 autonomous research systems along seven axes, from loop topology to verifier scope. Many systems produce research artifacts, but only 4 put a check on paper-level claims before release.
+
+- [SciΠvot: Benchmarking Principal-Investigator Judgment at Pivotal Moments of Scientific AutoResearch Agents](https://arxiv.org/abs/2610.21082) - 248 research-judgment questions built from real corrections that senior researchers gave LLM agents across 26 projects. Four of five frontier models score below random <small>🔸PDF</small>.
+
 ## Design
 
 Architectural principles and patterns for structuring agentic systems and coordinating planning, tools, memory, and multiple agents.
 
 - [Agentic AI Patterns](https://agentic-patterns.com/) - Catalog of architectural and workflow patterns for planning loops, tool orchestration, memory, and multi-agent coordination.
+
+- [Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy](https://arxiv.org/abs/2606.24177) - Treats prompt engineering as an engineering discipline. Its design principles start from Prompt Economy: build reusable loops for whole classes of research tasks. Agon has the smallest prompt footprint among cross-disciplinary autoresearch systems (18 roles, 230.6 KiB in total) and runs across 10+ research fields without modification <small>🔸PDF</small>.
 
 ## Hardware Accelerators
 
