@@ -48,6 +48,7 @@ End-to-end stacks and core frameworks for agentic systems.
 - [smolagents](https://github.com/huggingface/smolagents) - Minimal, lightweight framework for building simple and transparent LLM agents with a strong emphasis on readability, hackability, and low abstraction overhead. Designed for learning, prototyping, and small production systems. Language: Python.
 
 - [Volt Agent](https://github.com/VoltAgent/voltagent) - AI agent platform built on an open-source TypeScript agent framework. Language: TypeScript.
+- [No Stairs Please MCP](https://nostairsplease.com/mcp) - Hosted MCP server for AI agents to search under-400-capacity live music venues, booking contacts, and tour routes.
 
 ### Cloud-native Agent Platforms & Managed Stacks
 
